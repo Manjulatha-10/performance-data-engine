@@ -1,0 +1,2 @@
+event_id,goal_id,cycle_id,cycle_end_date,edit_date,edit_field,old_value,new_value,edit_rationale
+EVT-ANOM-001,GOAL-EMP-000001-001,CYCLE-2026-H1,2026-06-30,2026-07-15,goal_title,Improve customer satisfaction,Edited after cycle closure,

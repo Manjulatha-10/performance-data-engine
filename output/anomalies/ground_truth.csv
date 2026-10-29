@@ -1,0 +1,6 @@
+anomaly_id,dataset,record_id,anomaly_type,field_changed,original_value,anomalous_value,description
+ANOM-001,checkins,CHK-000001,goal_owner_mismatch,employee_id,EMP-000001,EMP-000002,Check-in employee differs from the goal owner.
+ANOM-002,checkins,CHK-000002,progress_out_of_range,progress_percent,93.0,150,Progress exceeds 100 and the update gives no explanation.
+ANOM-003,reviews,REV-2026-000001,reviewer_relationship_mismatch,reviewer_manager_id,MGR-000001,MGR-000002,Reviewer exists but is not the employee's assigned manager.
+ANOM-004,goal_change_events,EVT-ANOM-001,silent_edit_after_cycle_close,edit_rationale,Not applicable,,A goal edit occurs after cycle closure without a rationale.
+ANOM-005,feedback,FDB-000001,untraceable_feedback_evidence,evidence_reference,CHK-000001,CHK-999999,Feedback references a check-in ID that does not exist.
